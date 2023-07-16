@@ -10,15 +10,14 @@
 }
 
 .btn-primary {
-    border-radius: 8px;
-    background: #ff900e;
-    color: white;
-    font-size: 1.25rem;
-    padding: 20px 25px ;
-    border: none;
-    cursor: pointer;
+  border-radius: 8px;
+  background: #ff900e;
+  color: white;
+  font-size: 1.25rem;
+  padding: 20px 25px;
+  border: none;
+  cursor: pointer;
 }
-
 
 /* Header Style css */
 header {
@@ -69,37 +68,77 @@ nav li a {
   font-style: normal;
   font-weight: 400;
 }
-.banner-img{
-    margin-top: 20px;
+.banner-img {
+  margin-top: 20px;
 }
-.banner-img img{
-    width: 100%;
+.banner-img img {
+  width: 100%;
 }
 /* responsive media queris */
 /* mobile devices */
-@media screen and (max-width:576px) {
-    header{
-        padding: 0 20px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    .banner-title{
-        font-size: 25px;
-    }
-    .nav-title{
-        font-size: 2.3rem;
-    }
-    .btn-primary{
-        font-size: 1rem;
-    }
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 25px;
+  }
+  .nav-title {
+    font-size: 2.3rem;
+  }
+  .btn-primary {
+    font-size: 1rem;
+  }
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    header{
-        padding: 30px;
-    }
-    .banner-title{
-        font-size: 2.50rem;
-    }
+  header {
+    padding: 30px;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* main section  */
+main {
+  max-width: 1440px;
+  margin: 70px auto;
+}
+/* team section style css */
+.team-container {
+  display: flex;
+  align-items: center;
+}
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.team-content {
+  padding-left: 70px;
+}
+.team-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.quick {
+  color: #727272;
+  font-style: normal;
+  font-weight: 500;
+}
+.fea {
+  color: #ff900e;
+  line-height: normal;
+}
+.team-description {
+  color: #727272;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; 
+  padding-right: 100px;
 }
